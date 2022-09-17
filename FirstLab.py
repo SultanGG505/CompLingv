@@ -1,4 +1,4 @@
-path = "FirstLab.Txt"
+path = "DataSet.Txt"
 
 from nltk import download
 from nltk import sent_tokenize
