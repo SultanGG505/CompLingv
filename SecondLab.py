@@ -9,7 +9,7 @@ file = open(path, "r", encoding="utf8")  # открытие файла с тек
 
 text = file.readlines()  # чтение всех строк из файла с текстом датасета
 words = []  # массив слов
-
+file.close()
 # все слова в датасете добавляем в переменную words
 for el in text:
     sentences = sent_tokenize(el)
