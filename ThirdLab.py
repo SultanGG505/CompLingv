@@ -54,7 +54,6 @@ for el in text:
         sent = sentences[i]
         doc = Doc(sent)
         doc.segment(segmenter)
-        doc.segment(segmenter)
         doc.tag_morph(morph_tagger)
         doc.parse_syntax(syntax_parser)
         print(doc.tokens[:5])
